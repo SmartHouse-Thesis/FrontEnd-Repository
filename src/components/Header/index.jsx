@@ -8,7 +8,7 @@ export function MainHeader() {
     <>
       <div className='h-[70px] bg-white border-b border-[#F3F3F9] flex items-center justify-between'>
         <div className='pl-[27px] pr-[24px] flex items-center justify-between w-full'>
-        <SearchInput />
+        {/* <SearchInput /> */}
           <div className='flex items-center gap-[24px]'>
             <img src={usa_flag} alt="" />
             <div className='flex gap-[13px] bg-[#F3F3F9] py-[16px] px-[15px]'>

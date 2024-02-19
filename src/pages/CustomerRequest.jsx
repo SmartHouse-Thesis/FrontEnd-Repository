@@ -54,12 +54,12 @@ export function CustomerRequest() {
       <div className='px-[24px] pt-[24px]'>
         <div className='bg-[white]  pt-[13px] pb-[16px] '>
           <div className='flex items-center justify-between mx-[20px] mb-[20px] '>
-            <span className='flex items-center justify-between bg-[#0AB39C] w-[131px] px-[15px] py-[10px] rounded-[4px]'>
+            {/* <span className='flex items-center justify-between bg-[#0AB39C] w-[131px] px-[15px] py-[10px] rounded-[4px]'>
               <Icon icon='ic:baseline-plus' style={{ color: 'white' }} />
               <button className='text-white font-poppin font-normal text-[13px]'>
                 Add Product
               </button>
-            </span>
+            </span> */}
             <SearchInput />
           </div>
           <div className='flex items-center justify-between px-[14px] mb-[15px]'>

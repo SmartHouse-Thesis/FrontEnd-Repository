@@ -35,7 +35,7 @@ export function Sidebar() {
                     className='w-[18px] h-[18px]'
                   />
                   <span className='font-hk font-medium text-[15px] text-[#ABB9E8]'>
-                    Manage Devices
+                    Thiết bị 
                   </span>
                 </div>
                </Link>
@@ -77,7 +77,7 @@ export function Sidebar() {
                 </span>
               </a>
             </div>
-            <div className='flex items-center justify-between gap-[50px]'>
+            {/* <div className='flex items-center justify-between gap-[50px]'>
               <a href='' className=''>
                 <div className='flex items-center justify-center gap-[10px]'>
                   <Icon
@@ -91,7 +91,20 @@ export function Sidebar() {
                 </div>
               </a>
               <Icon icon='mingcute:down-line' style={{ color: '#9599AD' }} />
+            </div> */}
+            <div>
+              <Link to="/customer-request" className='flex items-center justify-start gap-[10px]'>
+                <Icon
+                  icon='ri:customer-service-fill'
+                  style={{ color: '#9599AD' }}
+                  className='w-[18px] h-[18px]'
+                />
+                <span className='font-hk font-medium text-[15px] text-[#ABB9E8]'>
+                  Yêu cầu khảo sát
+                </span>
+              </Link>
             </div>
+
             <div>
               <Link to="/construction" className='flex items-center justify-start gap-[10px]'>
                 <Icon

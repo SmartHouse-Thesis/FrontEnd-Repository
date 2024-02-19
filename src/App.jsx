@@ -14,6 +14,7 @@ import { ConstructionPage } from './pages/ConstructionPage';
 import { DevicePage } from './pages/DevicePage';
 import { PromotionPage } from './pages/PromotionPage';
 import { AssignStaff } from './pages/AssignStaff';
+import { CustomerRequest} from './pages/CustomerRequest'
 function App() {
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
           <Route path='/device-page' element={<DevicePage />} />
           <Route path='/promotion' element={<PromotionPage />} />
           <Route path='/assign-staff' element={<AssignStaff />} />
+          <Route path='/customer-request' element={<CustomerRequest/>} />
         </Route>
       </Routes>
     </>
