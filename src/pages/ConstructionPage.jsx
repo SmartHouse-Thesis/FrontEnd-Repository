@@ -97,62 +97,51 @@ export function ConstructionPage() {
             <span className='flex items-center justify-between bg-[#0AB39C] w-[180px] px-[15px] py-[10px] rounded-[4px]'>
               <Icon icon='ic:baseline-plus' style={{ color: 'white' }} />
               <button className='text-white font-poppin font-normal text-[13px]'>
-                Add Construction
+                Tạo hợp đồng mới
               </button>
             </span>
             <SearchInput />
           </div>
           <div className='flex items-center justify-between px-[14px] '>
             <span className='text-[#495057] font-poppin font-medium text-[16px]'>
-              Construction Page
+              Danh sách hợp đồng
             </span>
           </div>
           <div className='mb-[15px] border-b border-[#E9EBEC] flex items-center justify-start'>
             <div className='py-[16px] px-[20px]'>
-           <span className='text-[#405189] font-poppin font-medium text-[13px]'> New Contract</span>
+           <span className='text-[#405189] font-poppin font-medium text-[13px]'> Hợp đồng mới </span>
             </div>
             <div className='py-[16px] px-[20px]'>
-           <span className='text-[#405189] font-poppin font-medium text-[13px]'> Deposited Contract</span>
+           <span className='text-[#405189] font-poppin font-medium text-[13px]'> Hợp đồng đã đặt cọc</span>
             </div>
             <div className='py-[16px] px-[20px]'>
-           <span className='text-[#405189] font-poppin font-medium text-[13px]'> Ongoing Contract</span>
+           <span className='text-[#405189] font-poppin font-medium text-[13px]'> Hợp đồng đang thi công</span>
             </div>
             <div className='py-[16px] px-[20px]'>
-           <span className='text-[#405189] font-poppin font-medium text-[13px]'> Success Contract</span>
+           <span className='text-[#405189] font-poppin font-medium text-[13px]'> Hợp đồng đã hoàn thành</span>
             </div>
           </div>
           <table>
             <tr>
               <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Construction ID
+                 Mã
               </th>
               <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Customer
+                Tên khách hàng
               </th>
               <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Total Product
+                Tên gói
               </th>
               <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Amount
+                Ngày
               </th>
               <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Vendor
+                Thành tiền
               </th>
               <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Status
+                Trạng thái
               </th>
-              <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Rating
-              </th>
-              <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Published
-              </th>
-              <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Update
-              </th>
-              <th className='font-poppin font-semibold text-[13px] text-[#9599AD]'>
-                Delete
-              </th>
+
             </tr>
             {productArray.map((item) => (
               <tr className='border-t border-b border-[#E9EBEC] '>
@@ -162,7 +151,7 @@ export function ConstructionPage() {
                       {item.constructionId}
                     </span>
                     <span className='font-poppin text-[13px] font-normal text-[#9599AD]'>
-                      
+
                     </span>
                   </div>
                 </td>
@@ -210,7 +199,7 @@ export function ConstructionPage() {
                     </span>
                   </div>
                 </td>
-                <td className='px-[61px]'>
+                {/* <td className='px-[61px]'>
                   <div className='flex flex-col items-start justify-center'>
                     <span className='font-poppin text-[14px] font-medium'>
                       {item.price}
@@ -237,8 +226,8 @@ export function ConstructionPage() {
                       />
                     </span>
                   </div>
-                </td>
-                <td className='px-[20px]'>
+                </td> */}
+                {/* <td className='px-[20px]'>
                   <div className='flex flex-col items-start'>
                     <span className='font-poppin text-[14px] font-medium'>
                       <Icon
@@ -248,7 +237,7 @@ export function ConstructionPage() {
                       />
                     </span>
                   </div>
-                </td>
+                </td> */}
               </tr>
             ))}
           </table>
