@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'poppin': ['Poppins'],
-        'hk': ['Hanken Grotesk']
+        'hk': ['Hanken Grotes']
       }
     },
   },

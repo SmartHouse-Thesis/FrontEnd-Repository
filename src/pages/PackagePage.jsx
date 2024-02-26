@@ -1,11 +1,11 @@
 import { Icon } from '@iconify/react';
-import productImg from '../../public/image/clother.png';
+import productImg from '../../public/image/chair.png';
 import user from '../../public/image/user.png';
 import { Pagination } from '../components/Pagination';
 import { BreadCrumb } from '../components/BreadCrumb';
 import { SearchInput } from '../components/SearchInput';
 
-export function DevicePage() {
+export function PackagePage() {
     const productArray = [
         {
             productName: 'Branded T-Shirt',
